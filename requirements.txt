@@ -1,0 +1,5 @@
+youtube-transcript-api
+
+# Optional — only needed if using ingest.py (API mode)
+# anthropic
+# python-dotenv
