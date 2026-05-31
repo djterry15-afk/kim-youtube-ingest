@@ -61,14 +61,14 @@ python ingest.py <url> --prompt prompts/extract-custom-example.md
 
 ```
 ---
-## Why Structured Context Changes AI Output Quality
-Source: https://www.youtube.com/watch?v=...
+## Kaleidoscope OS: Operational Patterns from Running ICM Across 30 Clients
+Source: https://www.youtube.com/watch?v=-5K4tknUO8U
 Ingested: 2026-05-30
 
-- **Concept:** AI output quality is determined more by context architecture than by prompt length.
-- **Mechanism:** Language models predict the next token based on all prior tokens — so poorly organized context produces poorly organized output. Structure in equals structure out.
-- **So what:** Investing time in how you organize context files pays back more than investing time in writing longer prompts.
-- **Open questions:** At what context window size does architectural organization matter less?
+- **Concept:** Curtis abandoned n8n for ICM not because n8n lacked capability, but because its orchestration complexity cost exceeded the value it provided for a sequential, human-reviewed workflow.
+- **Mechanism:** Multi-tool orchestration through code means every workflow adjustment requires code changes, developer involvement, and redeployment. Multiple failure points compound. For sequential content production with human review at each step, this overhead isn't justified — the workflow doesn't need concurrency or programmatic branching.
+- **So what:** Before choosing a multi-agent framework, test whether the workflow is actually sequential and human-reviewed. If it is, code-based orchestration introduces complexity the problem doesn't require. ICM eliminates the developer dependency by design.
+- **Open questions:** At what point does the workflow complexity justify returning to code-based orchestration? What's the trigger — number of concurrent users, real-time branching requirements, something else?
 ```
 
 ---
